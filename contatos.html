@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meus Estudos</title>
+        <link rel="stylesheet" href="reset.css.zip">
+        <link href="contatos.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabeçario">
+            <div class="caixa">
+            <h1><img src="loogo.png" alt="logo do site" tabindex="1"></h1>
+            <nav>
+                <h2>
+                    <li tabindex="2"><a href="index.html">Artigos</a></li>
+                    <li tabindex="3"><a href="contato.html">Contato</a></li>
+                </h2>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nome-sobrenome">Seu Lindo Nome Completo...</label>
+                <input type="text" id="nome-sobrenome" tabindex="4" required class="input-padrao">
+                <label for="email">O Email Dessa Lindesa...</label>
+                <input type="email" id="email" tabindex="5" placeholder="EXEMPLO: email@dominio.com" required class="input-padrao">
+                <label for="telefone">Me Passa O Numero Gatinhx...</label>
+                <input type="tel" id="telefone" tabindex="6" placeholder="EXEMPLO: (XX)XXXXX-XXXX" required class="input-padrao">
+                <label for="mensagem">Fale Conosco...</label>
+                <textarea cols="70" rows="10" tabindex="7" id="mensagem" class="input-padrao"></textarea>
+                <fieldset class="radios">
+                    <legend>Por Onde Prefere O Nosso Contato?</legend>
+                    <label for="radio-email">Email</label>
+                    <input type="radio" tabindex="8" name="contato" value="email" id="radio-email">
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    <label for="radio-whatsapp">Whatsapp</label>
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                </fieldset>
+                <fieldset>
+                    <legend>Para Oque Necessita Nosso Atendimento </legend>
+                    <select tabindex="9">
+                        <option>...</option>
+                        <option>Ajudar Em Um Artigo</option>
+                        <option>Problemas Com O Site</option>
+                        <option>Problemas Com A Página</option>
+                        <option>Outro</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input tabindex="10" class="input-checkbox" type="checkbox"><p class="legend-checkbox">Gostaria De Receber Nossas Novidades Por Email ?</p></label>
+                <input type="submit" tabindex="11" value="Enviar formulário">      
+            </form>
+        </main>
+        <footer>
+            <img src="loogo.png" tabindex="12" alt="logo do site">
+            <div class="logotipos-footer">                
+                <a href="https://www.instagram.com/biancachiquinelli/" tabindex="13"><img src="instagram.png" alt="perfil do criador, instagram"></a>
+                <a href="https://github.com/XxBIHxX" tabindex="14"><img src="github.png" alt="perfil do criador, github"></a>
+                <a href="https://www.pinterest.ru/irmaossakamakis/" tabindex="15"><img src="pinterest.png" alt="perfil do criador, pinterest"></a>
+            </div>
+            <p tabindex="16"> © Copyright Meus Estudos - 2022</p>
+        </footer>
+    </body>
+</html>

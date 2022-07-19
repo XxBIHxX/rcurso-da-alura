@@ -1,0 +1,151 @@
+body {
+    margin: 0 0;
+    background-color: rgb(82, 91, 167);
+ }
+ .cabeçario {
+     background: rgb(10, 27, 46);
+     padding: 10px 0px;
+     border: 3px #000000 solid;
+ }
+ .caixa {
+     position: relative;
+     width: 940px;
+     margin: 0 auto;
+ }
+ 
+ nav {
+     position: absolute;
+     top: 110px; 
+     right: 0px;
+ }
+ 
+ img {
+     margin-left: 30px;
+ }
+ nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+ }
+ nav a {
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #000000;
+     font-size: 28px;
+     text-decoration: none;
+     text-shadow: 2px 4px 2px rgba(0,0,0,0.3);
+ }
+ nav a:hover {
+     color: #9c9993;
+     text-decoration: underline;
+     transition: 400ms;
+ }
+ p {
+    font-size: 22px;
+    text-align: center;
+    margin: 5px 15px;
+}
+form {
+    padding: 50px 0 40px 60px ;
+}
+form legend, form label {
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px 5px;
+    font-weight: 600;
+    text-align: left;
+}
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: #000000 2px solid;
+    border-radius: 4px;
+    background-color: #aab9ca;
+}
+fieldset {
+    border: 0px;
+}
+.radios label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 5px;
+    font-weight: 600;
+    text-align: left;
+    opacity: 0.8;
+}
+#radio-whatsapp,.checkbox , select:last-child {
+    margin-bottom: 20px;
+}
+select {
+    border: #000000 2px solid;
+    border-radius: 3px;
+    background-color: #13365d;
+    color: #aab9ca;
+    font-weight: 600;
+    width: 190px;
+    height: 28px;
+    cursor: pointer;
+}
+.checkbox {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000000 ;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+    background-color: #aab9ca;
+}
+input[type="checkbox" i] {
+    opacity: 0;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: -4px;
+    top: -3px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    opacity: 1;
+}
+.legend-checkbox {
+    position: relative;
+    left: 32px;
+    top: -34px;
+    white-space: nowrap;
+}
+input[type="submit"] {
+    background-color: #0A1B2E;
+    color: #aab9ca;
+    font-weight: 600;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+footer {
+    background-color: #0A1B2E;
+    border: 3px #000000 solid;
+    padding: 10px 0px;
+    text-align: center;
+}
+footer > img {
+    position: relative;
+    bottom: -29px;
+}
+.logotipos-footer img {
+    width: 40px;
+}
+footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #000000;
+    padding: 15px 0 15px 0;
+}
+/* desabilitar o hover nos espaçamentos */
+footer p:hover {
+    color: #9c9993;
+    text-decoration: underline;
+    transition: 400ms;
+}

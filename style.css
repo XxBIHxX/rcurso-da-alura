@@ -1,0 +1,138 @@
+body {
+   margin: 0 0;
+   background-color: rgb(82, 91, 167);
+}
+.cabeçario {
+    background: rgb(10, 27, 46);
+    padding: 10px 0px;
+    border: 3px #000000 solid;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px; 
+    right: 0px;
+}
+
+img {
+    margin-left: 30px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-size: 28px;
+    text-decoration: none;
+    text-shadow: 2px 4px 2px rgba(0,0,0,0.3);
+}
+nav a:hover {
+    color: #9c9993;
+    text-decoration: underline;
+    transition: 400ms;
+}
+.titulos {
+    font-size: 25px;
+    text-align: justify;
+    text-decoration: underline;
+    margin: 30px 10px;
+}
+.degrade {
+    background: linear-gradient(#525BA7 , #9c9993 , #525BA7) ;
+}
+h2, h3 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(10, 27, 46);
+}
+p {
+    font-size: 22px;
+    text-align: center;
+    margin: 5px 15px;
+}
+.div-exemplos{ 
+    border: 3px #000000 dotted;
+    margin: 26px 38%;
+    padding: 20px;
+}
+em {
+    display: block;
+}
+.exemplo {
+    text-align: center;
+    font-weight: bold;
+}
+.link-sabermais {
+    margin-bottom: 10px;
+}
+.degrade-reverse {
+    background: linear-gradient(#525BA7, #9c9993, #525BA7 ) ;
+}
+a {
+    color: rgb(113, 113, 153);
+}
+.box-img {
+    position: relative;
+    margin-bottom: 30px;
+    left: 150px;
+    width: 940px
+}
+.img-headandbody {
+    width: 200px;
+    margin: 0 15px 5px 40px;
+    float: left;
+    box-shadow: -10px -10px 5px #0A1B2E;
+    border: 1px solid rgb(10, 27, 46);
+}
+.text-img {
+    text-align: left;
+}
+.text-body {
+    text-align: center;
+    margin: 5px 120px;
+}
+iframe {
+    border: #000000 solid 5px;
+    position: relative;
+    left: 370px;
+    margin: 25px 10px 55px 10px;
+    box-shadow: 15px 15px 3px;
+}
+.img-headandbody:hover, iframe:hover {
+    opacity: 0.3;
+    transition: 400ms;
+}
+footer {
+    background-color: #0A1B2E;
+    padding: 10px 0px;
+    border: 3px #000000 solid;
+    text-align: center;
+}
+footer > img {
+    position: relative;
+    bottom: -29px;
+}
+.logotipos-footer img {
+    width: 40px;
+}
+footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #000000;
+    padding: 15px 0 15px 0;
+}
+/* desabilitar o hover nos espaçamentos */
+footer p:hover {
+    color: #9c9993;
+    text-decoration: underline;
+    transition: 400ms;
+}
